@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cantina: Mamacita</string>
+
+
+    <string name="greentea">Té verde. Combinado con menta,
+        jugo de limón, endulzado y batido con hielo molido, refrescante!</string>
+
+
+    <string name="latte">Una bebida con crema batida que da un sabor inigualable al café al
+        con una consistencia suave y cremosa. </string>
+
+
+    <string name="orangesmoothie">Batido de naranja con hielo y azúcar, muy refrescante y elaborado con fruta natural!</string>
+
+
+    <string name="orangevanilla">Perfecta bebida sabor a vainilla que permite un agradable gusto al paladar, la preferida de los
+    someliers franceses.</string>
+
+
+    <string name="cappcuni">Un clásico de los baristas, la bebida más preparada a nivel mundial, a base de shots de café espresso adicionado
+    con un poco de leche y canela que brindan un exquisito sabor.</string>
+
+
+    <string name="thaitea">Thai Tea está elaborado con la mejor mezcla de hojas herbales naturales y exquisitas</string>
+    <string name="tea">Elaborado con hojas de huerta, que brindan un sabor natural y clásico al té.</string>
+    <string name="bubbletea">Bebida escarchada de sabor café con azúcar y jarabe de caramelo .</string>
+    <string name="match">Machiato clásico de café, gran sabor y consistencia, adicionado con Ron para un mejor sabor. </string>
+
+
+</resources>

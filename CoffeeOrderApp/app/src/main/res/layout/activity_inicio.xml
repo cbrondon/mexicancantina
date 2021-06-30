@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:backgroundTintMode="screen"
+    tools:context=".Inicio">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spin"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Elegir mesa"
+        android:textColor="#E6FFFFFF"
+        android:textSize="35sp" />
+
+    <NumberPicker
+        android:id="@+id/spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/AppTheme.Picker"
+/>
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin"
+        android:layout_centerHorizontal="true"
+        android:background="#EC3333"
+        android:fontFamily="@font/allerta"
+        android:text="CONTINUAR"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>

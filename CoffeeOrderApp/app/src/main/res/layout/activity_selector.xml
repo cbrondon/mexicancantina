@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:backgroundTintMode="screen"
+    tools:context=".Selector">
+
+
+    <TextView
+        android:id="@+id/txtBien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnCA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/averia_libre_light"
+        android:text="Bienvenido, escoja una modalidad."
+        android:textColor="#E6FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCA"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:background="#EC3333"
+        android:fontFamily="@font/averia_libre_light"
+        android:text="COMER AQUÍ"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPL"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCA"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="#EC3333"
+        android:fontFamily="@font/averia_libre_light"
+        android:text="PARA LLEVAR"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

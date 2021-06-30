@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/xd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C1C1C"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp">
+
+        <ImageView
+            android:layout_marginTop="0dp"
+            android:paddingTop="0dp"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+
+            android:contentDescription=" "
+            app:srcCompat="@drawable/mexlogo" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xd"
+        android:id="@+id/hola"
+        android:foregroundGravity="center_horizontal"
+        android:paddingBottom="5dp"
+        >
+        <Button
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/coffee"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/fastfood"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/sandwich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/soup"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            />
+    </GridLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/hola"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:id="@+id/boton"
+        android:background="@drawable/menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+</RelativeLayout>
